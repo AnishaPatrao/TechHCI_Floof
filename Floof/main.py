@@ -1,17 +1,28 @@
 import glow
 import audio
 import dance
+import time
 
 
 
 #read accelerometer
 
 #glow the toy
-glow.heartBeat()
+print("glow")
+glow.HeartBeatThread()
+
+print("sleep")
+time.sleep(10)
 
 #audio
-#audio.PlayAudio("play")
+print("dance audio")
+audio.PlayAudioThread("dance")
 
 #servo for dance
+print("dance")
 dance.StartDance()
+
+
+print("story audio")
+audio.PlayAudioThread("story")
 

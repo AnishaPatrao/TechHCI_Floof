@@ -1,7 +1,11 @@
+import glow
+import audio
 import os 
 import time
 from datetime import datetime 
 from serial import Serial 
+
+
 
 nextCompassPoll = 0.0 
 
@@ -16,15 +20,14 @@ def StartDance():
             #print(serialDevicePath)
             
             serial = Serial(port=serialDevicePath, baudrate=1200, timeout=0.2) 
-            i = 0
-            while(i < 15):
+            while(True):
                 #receivedMsg = serial.readline() 
                 print('1')
                 serial.write(b'1')
                 time.sleep(3)
-                i += 3
 
-            serial.write(b'0')
-            
 
-#StartDance()
+#glow the toy
+#glow.heartBeat()
+StartDance()
+#PlayAudio("play")
