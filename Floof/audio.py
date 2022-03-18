@@ -18,4 +18,4 @@ def PlayAudioThread(sound):
     print('audio thread')
     return th
 
-#th = PlayAudioThread("dance")
+#PlayAudioThread("story")

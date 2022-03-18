@@ -8,19 +8,19 @@ from sense_hat import SenseHat
 sense = SenseHat()
 
 _ = [  0,   0,   0] # off
-#r = [255, 0, 0] # red
-r = [0, 255, 0] # green
+r = [255, 0, 0] # red
+#r = [0, 255, 0] # green
 
 HEART = [
     _,_,_,r,r,_,_,_,
-        _,_,r,r,r,r,_,_,
-        _,_,r,r,r,r,r,_,
-        _,_,_,r,r,r,r,r,
-        _,_,r,r,r,r,r,_,
-        _,_,r,r,r,r,_,_,
-        _,_,_,r,r,_,_,_,
-        _,_,_,_,_,_,_,_,
-    ]
+    _,_,r,r,r,r,_,_,
+    _,_,r,r,r,r,r,_,
+    _,_,_,r,r,r,r,r,
+    _,_,r,r,r,r,r,_,
+    _,_,r,r,r,r,_,_,
+    _,_,_,r,r,_,_,_,
+    _,_,_,_,_,_,_,_,
+]
 
 def setHeart(brightness):
     r = [brightness, 0, 0]
@@ -52,5 +52,5 @@ def HeartBeatThread():
     th = threading.Thread(target = HeartBeat)
     th.start()
 
-HeartBeatThread()
+#HeartBeatThread()
 
