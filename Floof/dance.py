@@ -27,4 +27,4 @@ def StartDance():
             serial.write(b'0')
             
 
-#StartDance()
+StartDance()
