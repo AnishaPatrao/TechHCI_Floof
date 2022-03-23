@@ -1,36 +1,32 @@
-import eventlet
-import socketio
-#import main
+from flask import Flask
+from flask import jsonify
+import audio
 
-sio = socketio.Server()
-app = socketio.WSGIApp(sio)
-print("socket")
-def get_device_id(environ):
-    print(environ.get('HTTP_DEVICE_ID', None))
-    return environ.get('HTTP_DEVICE_ID', None)
+app = Flask(__name__)
+@app.route('/')
+def hello():
+   now = datetime.datetime.now()
+   timeString = now.strftime("%Y-%m-%d %H:%M")
+   templateData = {
+      'title' : 'HELLO!',
+      'time': timeString
+      }
 
-@sio.event
-def connect(sid, environ):
-    print("socket")
-    device_id = get_device_id(environ) or sid
-    sio.save_session(sid, {'device_id': device_id})
-    print('{} is connected'.format(device_id))
+@app.route('/api/floof-sad', methods=['POST'])
+def create_reading():
+    #req_json = request.get_json()
+    print(request.get_json())
+    if isScreenOn:
+        audio.PlayAudio("Floof_Audio_I missed you")
+    #return "True"
+    return jsonify({'status': 'succeeded'})
 
-@sio.event
-def my_message(sid, data):
-    session = sio.get_session(sid)
-    print('Received data from {}: {}'.format(session['device_id'], data))
-
-@sio.event
-def screen_opened(sid, data):
-    session = sio.get_session(sid)
-    print('Screen opened {}'.format(session['device_id']))
-    #main.ShutDown()
-
-
-@sio.event
-def disconnect(sid):
-    print('disconnect ', sid)
-
+@app.route('/api/floof-sad/<int:isScreenOn>', methods=['GET'])
+def play_sad_floof(isScreenOn):
+    if isScreenOn:
+        audio.PlayAudio("Floof_Audio_I missed you")
+    return "True"
+    
 if __name__ == '__main__':
-    eventlet.wsgi.server(eventlet.listen(('', 5000)), app, log_output=False)
+    app.run(debug=True, port=5000, host='groupb.local')
+

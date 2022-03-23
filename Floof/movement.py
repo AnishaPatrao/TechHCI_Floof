@@ -17,7 +17,7 @@ def IsMoving():
         z=abs(z)
 
         if x>1 or y>1 or z>1:
-            print("{0}, {1}, {2}".format(x,y,z))
+            #print("{0}, {1}, {2}".format(x,y,z))
             #sense.show_letter("!", red)
             return True
         else:

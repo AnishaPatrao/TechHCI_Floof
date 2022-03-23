@@ -9,7 +9,7 @@ sense = SenseHat()
 
 _ = [  0,   0,   0] # off
 #r = [255, 0, 0] # red
-r = [0, 255, 0] # green
+r = [255, 140, 0] # yellow
 
 HEART = [
     _,_,_,r,r,_,_,_,
@@ -56,4 +56,6 @@ def HeartBeatThread():
 
 def ClearHearBeat():
     sense.clear()
+
+#ClearHearBeat()
 
