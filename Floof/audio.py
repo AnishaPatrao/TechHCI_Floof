@@ -9,8 +9,8 @@ MP3EXTN = ".mp3"
 # for playing mp3 file
 def PlayAudio(sound):
     print('audio played:' + sound)
-    song = AudioSegment.from_mp3(PATH + sound + MP3EXTN)
-    play(song)
+    # song = AudioSegment.from_mp3(PATH + sound + MP3EXTN)
+    # play(song)
 
 def PlayAudioThread(sound):
     print('audio thread: ' + sound)
@@ -19,3 +19,4 @@ def PlayAudioThread(sound):
     return th
 
 #PlayAudioThread("Floof_Audio_I missed you")
+#PlayAudio("Conv_IMissedYou")
