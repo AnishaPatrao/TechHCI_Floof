@@ -37,22 +37,24 @@ def setHeart(brightness):
 
 
 def HeartBeat():
-    while(True):
-        for i in range(0, 1):
-            setHeart(i)
-            sense.set_pixels(GLOW)
-            time.sleep(0.005)
+    sense.set_pixels(GLOW)
+
+    # while(True):
+    #     for i in range(0, 1):
+    #         setHeart(i)
+    #         sense.set_pixels(GLOW)
+    #         time.sleep(0.005)
         
-        for i in range(1, 0, -1):
-            setHeart(i)
-            sense.set_pixels(GLOW)
-            time.sleep(0.005)
+    #     for i in range(1, 0, -1):
+    #         setHeart(i)
+    #         sense.set_pixels(GLOW)
+    #         time.sleep(0.005)
         
 def HeartBeatThread():
     th = threading.Thread(target = HeartBeat)
     th.start()
 
-HeartBeatThread()
+#HeartBeatThread()
 
 def ClearHearBeat():
     sense.clear()
