@@ -31,7 +31,8 @@ class ViewModel: ObservableObject{
             }
             
             do{
-                print("success")
+                let response = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+                print("Success: \(response)")
             }
             catch{
                 print("error: \(error)")
