@@ -14,7 +14,7 @@ struct Course: Hashable, Codable{
 
 class ViewModel: ObservableObject{
     func apiCall(status: Int){
-        guard let url = URL(string:"http://groupb.local:5000/api/floof-sad/" + String(status)) else {
+        guard let url = URL(string:"http://groupb.local:5000/api/ipad-usage/" + String(status)) else {
             return
         }
         
