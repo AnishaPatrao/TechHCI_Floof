@@ -154,8 +154,8 @@ def PlayActivities(completedActivity):
     isPlaying = False
 
 #API for determining if the Ipad is being used by the child
-@app.route('/api/floof-sad/<int:isScreenOn>', methods=['GET'])
-def play_sad_floof(isScreenOn):
+@app.route('/api/ipad-usage/<int:isScreenOn>', methods=['GET'])
+def ToggleToyState(isScreenOn):
     global isShutdown 
     #print("isScreenOn:" + str(isScreenOn))
 
