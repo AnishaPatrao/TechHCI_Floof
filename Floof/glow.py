@@ -41,10 +41,10 @@ def HeartBeatThread():
     th = threading.Thread(target = HeartBeat)
     th.start()
 
-#HeartBeatThread()
 
 def ClearHearBeat():
     sense.clear()
 
 #ClearHearBeat()
+#HeartBeatThread()
 

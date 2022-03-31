@@ -1,3 +1,6 @@
+#Filename: audio.py
+#Description: Used to play an audio file
+
 # import required modules
 import threading
 from pydub import AudioSegment
