@@ -15,7 +15,7 @@ The project has 2 components:
 ### The toy:
 Hardware:
 * Raspberry Pi 4B
-* BBC micro:bit 
+* BBC micro:bit V2
 * Sense Hat (accelerometer and LED Matrix)
 * Bluetooth Speaker
 * Servos
