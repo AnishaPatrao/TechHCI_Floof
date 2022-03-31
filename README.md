@@ -30,7 +30,7 @@ Software:
 Libraries:
 * SenseHat 2.2.0 - to program the sense Hat
 * Flask - to implement a web server on the Pi
-* pydub 0.25.1 - for playing audio files
+* pydub 0.25.1 - for playing audio files (pip install pydub)
 * Serial - for serial connection with the micro:bit
 
 ### The iOS App:
