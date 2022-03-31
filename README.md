@@ -11,7 +11,8 @@ The project consists of a toy that provides interactive activities to children i
 
 ## Technologies
 The project has 2 components:
-### The toy
+
+### The toy:
 Hardware:
 * Raspberry Pi 4B
 * BBC micro:bit 
@@ -29,13 +30,14 @@ Libraries:
 * pydub 0.25.1 - for playing audio files
 * Serial - for serial connection with the micro:bit
 
-### The iOS App
+### The iOS App:
 Software:
 * XCode 13.2.1 (IDE)
 * Swift 5
 
 ## Setup
-* To run this project, clone the 'Floof' code onto the Raspberry Pi. 
+To run this project,
+* Clone the 'Floof' code onto the Raspberry Pi. 
 * Install the hex file to the micro:bit.
 * Install the iOS app on an iPad or run it in the simulator.
 * Connect the Sense Hat to the Raspberry Pi. 
