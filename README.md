@@ -1,7 +1,7 @@
 # Floof - An Interactive Toy
 A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, designed to keep children off screens.
 
-![WhatsApp Image 2022-03-31 at 10 52 47 PM](https://user-images.githubusercontent.com/92370926/161155911-4c4d828d-9279-4b5c-aeca-8ea5215241ad.jpeg)
+<img width="173" alt="image" src="https://user-images.githubusercontent.com/92370926/161156052-067ba43f-4064-46ea-8f41-b1c5410d7a44.png">
 
 ## Table of Contents
 * [General info](#general-info)
