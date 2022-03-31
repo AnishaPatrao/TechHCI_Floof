@@ -38,7 +38,7 @@ Software:
 ## Setup
 To run this project,
 * Clone the 'Floof' code onto the Raspberry Pi. 
-* Install the hex file to the micro:bit.
+* Install the latest version of the hex file (v1) to the micro:bit.
 * Install the iOS app on an iPad or run it in the simulator.
 * Connect the Sense Hat to the Raspberry Pi. 
 * Connect the micro:bit to the Pi using a micro USB cable. 
