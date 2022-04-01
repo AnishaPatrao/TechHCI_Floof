@@ -1,8 +1,7 @@
 # Floof - An Interactive Toy
-A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, designed to keep children off screens.
+A toy created with a Raspberry Pi 4B, a micro:bit and an associated iOS app, designed to keep children off screens.
 
-<img width="1060" alt="image" src="https://user-images.githubusercontent.com/92370926/161159538-84e4c866-3736-40bc-93b5-753e501ab385.png">
-
+<img width="1035" alt="Floof Banner Image" src="https://user-images.githubusercontent.com/57227474/161309063-55caaf0c-043b-4806-98ad-ea756341f62f.png">
 
 ## Table of Contents
 * [General info](#general-info)
@@ -47,3 +46,5 @@ To run this project,
 * Connect the micro:bit to the Pi using a micro USB cable. 
 * Connect servos to the pins P0, P1 and P2 of the micro:bit. 
 * Pair and connect a Bluetooth speaker to the Pi.
+
+<img width="200" alt="Floof Dance" src="https://user-images.githubusercontent.com/57227474/161307753-c4a2dee9-0c72-49cc-ad87-005d7dacb9a7.gif">
