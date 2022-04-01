@@ -1,8 +1,10 @@
-# Floof - An Interactive Toy
+# Floof - An Interactive Toy 
+
 A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, designed to keep children off screens.
 
-<img width="1060" alt="image" src="https://user-images.githubusercontent.com/92370926/161159538-84e4c866-3736-40bc-93b5-753e501ab385.png">
-
+<p align="center">
+  <img width="629" alt="image" src="https://user-images.githubusercontent.com/92370926/161302979-32f3cce2-f9ca-4f97-abbe-54002abe50a3.png">
+</p>
 
 ## Table of Contents
 * [General info](#general-info)
@@ -10,7 +12,11 @@ A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, de
 * [Setup](#setup)
 
 ## General Info
-The project consists of a toy that provides interactive activities to children in the 4-9 yr age group. Research indicates that children in this age group clock 6 and a half hours of screen time per day, which is alarmingly high. Floof is designed to pull children away from screens by engaging them in interesting activities which include fun facts to foster learning, a dance activity to encourage physical movement. The toy is designed to emit a warm glow when interacting with the child. 
+The project consists of a toy that provides interactive activities to children in the 4-9 year age group. Research indicates that children in the 5-16 year age group clock 6 and a half hours of screen time per day, which is alarmingly high. Floof is designed to pull children away from screens by engaging them in interesting activities which include fun facts to foster learning, a dance activity to encourage physical movement. The toy is designed to emit a warm glow when interacting with the child. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92370926/161296871-a12fc56c-970a-45ce-8f7b-7f173c5b9ec7.gif" width="20%" height="20%"/>
+</p>
 
 ## Technologies
 The project has 2 components:
@@ -46,4 +52,4 @@ To run this project,
 * Connect the Sense Hat to the Raspberry Pi. 
 * Connect the micro:bit to the Pi using a micro USB cable. 
 * Connect servos to the pins P0, P1 and P2 of the micro:bit. 
-* Pair and connect a Bluettoth speaker to the Pi.
+* Pair and connect a Bluetooth speaker to the Pi.
