@@ -3,7 +3,7 @@
 A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, designed to keep children off screens.
 
 <p align="center">
-  <img width="629" alt="image" src="https://user-images.githubusercontent.com/92370926/161302979-32f3cce2-f9ca-4f97-abbe-54002abe50a3.png">
+  <img width="800" alt="image" src="https://user-images.githubusercontent.com/92370926/161302979-32f3cce2-f9ca-4f97-abbe-54002abe50a3.png">
 </p>
 
 ## Table of Contents
