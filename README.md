@@ -1,10 +1,8 @@
-# Floof - An Interactive Toy 
+# Floof - An Interactive Toy
 
-A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, designed to keep children off screens.
+A toy created with a Raspberry Pi 4B, a micro:bit and an associated iOS app, designed to keep children off screens.
 
-<p align="center">
-  <img width="800" alt="image" src="https://user-images.githubusercontent.com/92370926/161302979-32f3cce2-f9ca-4f97-abbe-54002abe50a3.png">
-</p>
+<img width="1035" alt="Floof Banner Image" src="https://user-images.githubusercontent.com/57227474/161309063-55caaf0c-043b-4806-98ad-ea756341f62f.png">
 
 ## Table of Contents
 * [General info](#general-info)
@@ -12,6 +10,7 @@ A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, de
 * [Setup](#setup)
 
 ## General Info
+
 The project consists of a toy that provides interactive activities to children in the 4-9 year age group. Research indicates that children in the 5-16 year age group clock 6 and a half hours of screen time per day, which is alarmingly high. Floof is designed to pull children away from screens by engaging them in interesting activities which include fun facts to foster learning, a dance activity to encourage physical movement. The toy is designed to emit a warm glow when interacting with the child. 
 
 <p align="center">
