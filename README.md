@@ -10,7 +10,7 @@ A toy created with a Raspberry Pi 4B, a micro:bit and an associated iPad app, de
 * [Setup](#setup)
 
 ## General Info
-The project consists of a toy that provides interactive activities to children in the 4-9 yr age group. Research indicates that children in this age group clock 6 and a half hours of screen time per day, which is alarmingly high. Floof is designed to pull children away from screens by engaging them in interesting activities which include fun facts to foster learning, a dance activity to encourage physical movement. The toy is designed to emit a warm glow when interacting with the child. 
+The project consists of a toy that provides interactive activities to children in the 4-9 yr age group. Research indicates that children in this age group spend an alarmingly increasing amount of time on screens per day. Floof is designed to pull children away from screens by engaging them in interesting activities when at times set by parents or when time limits have been reach, including fun facts to foster learning, friendly chatter, and a dance activity to encourage physical movement. The toy is designed to emit a glow from its belly when interacting with the child and when combined with its speech show a warmth towards the user.
 
 ## Technologies
 The project has 2 components:
@@ -46,4 +46,4 @@ To run this project,
 * Connect the Sense Hat to the Raspberry Pi. 
 * Connect the micro:bit to the Pi using a micro USB cable. 
 * Connect servos to the pins P0, P1 and P2 of the micro:bit. 
-* Pair and connect a Bluettoth speaker to the Pi.
+* Pair and connect a Bluetooth speaker to the Pi.
